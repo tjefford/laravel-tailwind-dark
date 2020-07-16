@@ -12,7 +12,7 @@
         <!-- Tailwind -->
         <link rel="stylesheet" href="{{ asset('css/styles.css') }}" />
     </head>
-    <body class="bg-blue-500 text-white">
+    <body class="bg-yellow-300 text-gray-900 dark:bg-gray-900 dark:text-white">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
